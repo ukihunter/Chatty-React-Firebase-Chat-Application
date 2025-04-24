@@ -47,12 +47,12 @@ const Chat = () => {
 
     const uploadData = new FormData();
     uploadData.append("file", file);
-    uploadData.append("upload_preset", "chatty");
-    uploadData.append("cloud_name", "dxsxtmlqd");
+    uploadData.append("upload_preset", "");//cloudinary
+    uploadData.append("cloud_name", "");//cloudinary
 
     try {
       const response = await fetch(
-        `https://api.cloudinary.com/v1_1/dxsxtmlqd/image/upload`,
+        ``,//cloudinary url
         {
           method: "POST",
           body: uploadData,
