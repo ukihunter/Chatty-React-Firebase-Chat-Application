@@ -1,5 +1,11 @@
 # 📱Chatty - React Firebase Chat Application
 
+
+## Demo
+
+![Chatty Demo](chatty.gif)
+
+
 Chatty is a real-time chat application built with React, Firebase, and Zustand. It allows users to register, log in, and chat with other users in real time. The app also supports features like user blocking, image sharing, and emoji support.
 
 ---
