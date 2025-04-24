@@ -23,7 +23,7 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chatty.git
+   git clone https://github.com/ukihunter/Chatty-React-Firebase-Chat-Application
    cd chatty
 
 Install dependencies:
