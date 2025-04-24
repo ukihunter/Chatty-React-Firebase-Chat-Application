@@ -1,4 +1,4 @@
-# Chatty - React Firebase Chat Application
+# 📱Chatty - React Firebase Chat Application
 
 Chatty is a real-time chat application built with React, Firebase, and Zustand. It allows users to register, log in, and chat with other users in real time. The app also supports features like user blocking, image sharing, and emoji support.
 
@@ -27,7 +27,9 @@ Follow these steps to set up the project locally:
    cd chatty
 
 Install dependencies:
+  
   ``` npm run dev```
+  
 Set up Firebase:
 
 - Create a Firebase project at Firebase Console.
@@ -41,10 +43,11 @@ Start the development server:
 Open the app in your browser at **http://localhost:5173**
 
 Scripts
--npm run dev: Start the development server.
--npm run build: Build the project for production.
--npm run preview: Preview the production build.
--npm run lint: Run ESLint to check for code issues.
+
+- npm run dev: Start the development server.
+- npm run build: Build the project for production.
+- npm run preview: Preview the production build.
+- npm run lint: Run ESLint to check for code issues.
 
 **Firebase Configuration**
 - The Firebase configuration is located in src/lib/firebase.js. Replace the firebaseConfig object with your Firebase project credentials.
@@ -70,35 +73,42 @@ Scripts
 
 **Dependencies**
   **Core Dependencies**
+  
 -React: Frontend library for building the user interface.
 -Firebase: Backend-as-a-service for authentication and real-time database.
 -Zustand: State management library for managing user and chat states.
 
-Additional Libraries
+**Additional Libraries**
+
 -React Toastify: For displaying toast notifications.
 -Emoji Picker React: For adding emoji support in messages.
 -Cloudinary: For image hosting and sharing.
 
 **Environment Variables**
+
 -The project uses the following environment variables:
 
-Variable	Description
+**Variable	Description**
+
 | Variable       | Description                        |
 |----------------|------------------------------------|
 | `VITE_API_KEY` | Firebase API key for the project   |
 
-Known Issues
+
+**Known Issues**
 
 -Blocked User State: Ensure the blocked state is updated correctly in Firestore.
 -Image Upload: Ensure Cloudinary credentials are configured properly for image uploads.
 
-Future Enhancements
+**Future Enhancements**
+
 -Add support for group chats.
 -Implement message read receipts.
 -Add typing indicators.
 -Improve UI/UX for mobile devices.
 
-Contributing
+**Contributing**
+
 -Contributions are welcome! Please follow these steps:
 
   -Fork the repository.
@@ -108,7 +118,8 @@ Contributing
   -Open a pull request.
 
 **License**
--This project is licensed under the MIT License. See the LICENSE file for details.
+
+-This project is licensed under the MIT License. 
 
 
 ## Acknowledgments
