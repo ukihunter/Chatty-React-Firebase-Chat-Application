@@ -38,7 +38,7 @@ Set up Firebase:
 
 Set up environment variables:
 
- - Create a .env file in the root directory and add your Firebase API key:
+ - Create a .env file in the root directory and add your Firebase API key
 
 Start the development server:
 
