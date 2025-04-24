@@ -72,10 +72,12 @@ Scripts
 -```Notification.jsx```: Displays toast notifications using react-toastify.
 
 **Styling**
+
 -Global styles are defined in index.css.
 -Component-specific styles are located in their respective directories (e.g., chat.css, login.css).
 
 **Dependencies**
+
   **Core Dependencies**
   
 -React: Frontend library for building the user interface.
