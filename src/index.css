@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+body {
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: aliceblue;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(82, 85, 84, 0.486);
+  backdrop-filter: blur(1px) saturate(180%);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 255, 0.125);
+  display: flex;
+}
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(82, 85, 84, 0.486);
+  backdrop-filter: blur(2px) saturate(180%);
+  z-index: 9999;
+}
