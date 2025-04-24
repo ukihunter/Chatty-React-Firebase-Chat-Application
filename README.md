@@ -48,51 +48,62 @@ Open the app in your browser at **http://localhost:5173**
 
 Scripts
 
-- npm run dev: Start the development server.
-- npm run build: Build the project for production.
-- npm run preview: Preview the production build.
-- npm run lint: Run ESLint to check for code issues.
+   - npm run dev: Start the development server.
+   - npm run build: Build the project for production.
+   - npm run preview: Preview the production build.
+   - npm run lint: Run ESLint to check for code issues.
 
 **Firebase Configuration**
-- The Firebase configuration is located in src/lib/firebase.js. Replace the firebaseConfig object with your Firebase project credentials.
+   - The Firebase configuration is located in src/lib/firebase.js. Replace the firebaseConfig object with your Firebase project credentials.
 
 **Key Components**
 1. Authentication
-- ```Login.jsx```: Handles user login and registration.
-- Firebase Authentication is used for managing user accounts.
+   
+   - ```Login.jsx```: Handles user login and registration.
+   - Firebase Authentication is used for managing user accounts.
+  
 2. Chat Functionality
-- ```Chat.jsx```: Displays chat messages and allows users to send text and images.
-- Firebase Firestore is used for storing chat messages.
+  
+   - ```Chat.jsx```: Displays chat messages and allows users to send text and images.
+   - Firebase Firestore is used for storing chat messages.
+  
 3. User Management
--```Userinfo.jsx```: Displays the current user's information.
--```AddUser.jsx```: Allows users to search for and add other users to their chat list.
+  
+   - ```Userinfo.jsx```: Displays the current user's information.
+   
+   - ```AddUser.jsx```: Allows users to search for and add other users to their chat list.
+
 4. Blocking Users
--```Detil.jsx```: Allows users to block or unblock other users.
-5. Notifications
--```Notification.jsx```: Displays toast notifications using react-toastify.
+
+   - ```Detil.jsx```: Allows users to block or unblock other users.
+
+6. Notifications
+
+   - ```Notification.jsx```: Displays toast notifications using react-toastify.
 
 **Styling**
 
--Global styles are defined in index.css.
--Component-specific styles are located in their respective directories (e.g., chat.css, login.css).
+   - Global styles are defined in index.css.
+   
+   - Component-specific styles are located in their respective directories (e.g., chat.css, login.css).
 
 **Dependencies**
 
   **Core Dependencies**
   
--React: Frontend library for building the user interface.
--Firebase: Backend-as-a-service for authentication and real-time database.
--Zustand: State management library for managing user and chat states.
+   - React: Frontend library for building the user interface.
+   - Firebase: Backend-as-a-service for authentication and real-time database.
+   - Zustand: State management library for managing user and chat states.
 
 **Additional Libraries**
 
--React Toastify: For displaying toast notifications.
--Emoji Picker React: For adding emoji support in messages.
--Cloudinary: For image hosting and sharing.
+   - React Toastify: For displaying toast notifications.
+   - Emoji Picker React: For adding emoji support in messages.
+   - Cloudinary: For image hosting and sharing.
 
 **Environment Variables**
 
--The project uses the following environment variables:
+   - The project uses the following environment variables:
 
 **Variable	Description**
 
@@ -103,29 +114,29 @@ Scripts
 
 **Known Issues**
 
--Blocked User State: Ensure the blocked state is updated correctly in Firestore.
--Image Upload: Ensure Cloudinary credentials are configured properly for image uploads.
+   - Blocked User State: Ensure the blocked state is updated correctly in Firestore.
+   - Image Upload: Ensure Cloudinary credentials are configured properly for image uploads.
 
 **Future Enhancements**
 
--Add support for group chats.
--Implement message read receipts.
--Add typing indicators.
--Improve UI/UX for mobile devices.
+   - Add support for group chats.
+   - Implement message read receipts.
+   - Add typing indicators.
+   - Improve UI/UX for mobile devices.
 
 **Contributing**
 
--Contributions are welcome! Please follow these steps:
+ - Contributions are welcome! Please follow these steps:
 
-  -Fork the repository.
-  -Create a new branch:
-  -Commit your changes:
-  -Push to your branch:
-  -Open a pull request.
+  - Fork the repository.
+  - Create a new branch:
+  - Commit your changes:
+  - Push to your branch:
+  - Open a pull request.
 
 **License**
 
--This project is licensed under the MIT License. 
+- This project is licensed under the MIT License. 
 
 
 ## Acknowledgments
