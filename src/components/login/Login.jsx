@@ -55,12 +55,12 @@ const Login = () => {
       if (avatar.file) {
         const uploadData = new FormData();
         uploadData.append("file", avatar.file);
-        uploadData.append("upload_preset", "chatty"); // Replace "chatty" with your actual Cloudinary upload preset
-        uploadData.append("cloud_name", "dxsxtmlqd"); // Replace "your_cloud_name" with your actual Cloudinary cloud name
+        uploadData.append("upload_preset", ""); //cloudinary
+        uploadData.append("cloud_name", ""); //cloudinary
 
         try {
           const response = await fetch(
-            `https://api.cloudinary.com/v1_1/dxsxtmlqd/image/upload`,
+            ``,//cloudinary
             {
               method: "POST",
               body: uploadData,
