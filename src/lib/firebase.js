@@ -5,11 +5,11 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: "chatty-8314c.firebaseapp.com",
-  projectId: "chatty-8314c",
-  storageBucket: "chatty-8314c.firebasestorage.app",
-  messagingSenderId: "140355902267",
-  appId: "1:140355902267:web:a54b709517cd03a86cb51e",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 // Initialize Firebase
