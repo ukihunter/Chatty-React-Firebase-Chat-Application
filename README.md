@@ -37,9 +37,13 @@ Set up Firebase:
 - Replace the Firebase configuration in src/lib/firebase.js with your own Firebase project credentials.
 
 Set up environment variables:
+
  - Create a .env file in the root directory and add your Firebase API key:
+
 Start the development server:
+
   ```npm run dev```
+
 Open the app in your browser at **http://localhost:5173**
 
 Scripts
